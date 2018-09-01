@@ -1,0 +1,937 @@
+/*!
+ * Custom css for Sugarsecret website by ram
+ * dt29Aug2016
+ * Foriceberg
+ */
+@font-face {font-family: "BodoniXT V1";
+  src: url("../font/f50f24cd167cd314fb697564528760d8.eot"); /* IE9*/
+  src: url("../font/f50f24cd167cd314fb697564528760d8.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../font/50f24cd167cd314fb697564528760d8.woff2") format("woff2"), /* chrome、firefox */
+  url("../font/f50f24cd167cd314fb697564528760d8.woff") format("woff"), /* chrome、firefox */
+  url("../font/50f24cd167cd314fb697564528760d8.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../font/f50f24cd167cd314fb697564528760d8.svg#BodoniXT V1") format("svg"); /* iOS 4.1- */
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-align: center;
+    overflow-x: hidden;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+
+#fullpage{overflow-y: visible;
+    }
+.light{
+color:rgb(125,131,191)    
+}
+.dark{
+color:#5a3b7e;
+}
+.white{
+color:#fff;
+}
+.pink{color:rgb(234,90,135); }
+h1, h2, h3, h4{
+    font-family:"BodoniXT V1" !important;
+    font-weight: 100;
+    font-size:2.2em;
+    color:#002e5e;
+    letter-spacing: 1px;
+}
+.subhead{
+font-family:"BodoniXT V1" !important;
+    font-weight: 100;
+    font-size:45px;
+    padding-bottom:1em; 
+}
+.paratext{
+    font-family:"BodoniXT V1" !important;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 100;
+    font-size:5.5em;
+    color:#fff;
+    padding-top:150px;
+    margin-left:2em;
+
+}
+
+.navbar-brand{
+height: auto;    
+}
+.clouds{background:#cbf9ff url(../images/bg_clouds.png) repeat 0 bottom;max-width: 100%;height:720px;margin:0;
+    overflow-x: hidden;}
+    .building{background:url(../images/header2.png)repeat 0 bottom;max-width: 100%;;height:730px;
+    overflow-x: hidden;}
+    .girl{background:url(../images/girl.png) no-repeat bottom;width:281px;height:700px;margin-left:50%;
+    position:relative;
+    animation:girl .2s infinite;
+    left: 5px;
+    transition-timing-function: cubic-bezier(0,1,1,0);
+    white-space: nowrap;}
+  
+   @keyframes girl{
+    0%{ 
+        left:0px;
+      }
+    10%
+      {
+        right:-0px;
+      }
+  }
+li a:active { 
+    color:#35204e;
+}
+#top{margin-top:50px; 
+
+}
+.darkblue{
+color:#002e5e;
+}
+.lightblue{
+color:#00a7e5;
+}
+
+.divbar{
+ background: rgb(60,48,97);
+height:2.5em;  
+}
+
+.white{color:#fff;}
+.headline{
+    font-weight: 400;
+    font-size:5.5em;
+    }
+
+#hus{
+    background:url(../images/hashbg.jpg) 50% 0px no-repeat scroll;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    height: auto;
+    padding-top: 3%;
+    padding-bottom: 8%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size:1.3em;
+}
+.boldtext{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+#knowme{
+    background:url(../images/kmowmebg.jpg) 50% 0px no-repeat scroll;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    height: auto;
+    padding-top: 3%;
+    padding-bottom: 8%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size:1.3em;
+}
+#para1{
+  background:url(../images/parabg1.jpg) 50% 0px no-repeat fixed;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    height: 850px;
+}
+
+#mysecretdiary{
+background:url(../images/patern.jpg);
+ }
+
+
+
+/*========================service itemt================================*/
+.servicebox{
+margin:3em;
+background-color: antiquewhite;
+border: 5px solid #9fc1c4;
+padding-top:50px; 
+padding-bottom:20px;
+ -webkit-box-shadow: 17px 22px 44px -26px rgba(0,0,0,0.69);
+-moz-box-shadow: 17px 22px 44px -26px rgba(0,0,0,0.69);
+box-shadow: 17px 22px 44px -26px rgba(0,0,0,0.69);
+}
+#eye{ 
+-webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);   
+}
+#face{ 
+-webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -o-transform: rotate(10deg); 
+}
+
+#waxing{
+-webkit-transform: rotate(13deg);
+    -moz-transform: rotate(13deg);
+    -ms-transform: rotate(13deg);
+    -o-transform: rotate(13deg); 
+}
+
+#body{ 
+-webkit-transform: rotate(-9deg);
+    -moz-transform: rotate(-9deg);
+    -ms-transform: rotate(-9deg);
+    -o-transform: rotate(-9deg); 
+}
+#lips{ 
+-webkit-transform: rotate(-5.5deg);
+    -moz-transform: rotate(-5.5deg);
+    -ms-transform: rotate(-5.5deg);
+    -o-transform: rotate(-5.5deg); 
+}
+#nails{ 
+-webkit-transform: rotate(5.5deg);
+    -moz-transform: rotate(5.5deg);
+    -ms-transform: rotate(5.5deg);
+    -o-transform: rotate(5.5deg); 
+}
+
+.servicetitle{
+font-family:"BodoniXT V1" !important;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    padding-bottom: 10px;
+    font-weight: 100;
+    font-size:2em;
+
+
+}
+.servicehead{
+ font-family: 'Roboto', sans-serif;
+ font-weight: 300;
+ font-size:3em;       
+}
+.servicetext{
+ font-family: 'Roboto', sans-serif;
+ font-weight: 300;
+ font-size:1em;    
+ color:#000;
+padding-left:3em;
+padding-right:3em;
+}
+
+tbody tr:nth-child(odd) {
+   background-color: #dfdafa;
+}
+tbody tr:nth-child(even) {
+   background-color: #b6bff0;
+}
+.item_head{
+background-color: #3b3453;
+color:white;
+margin-top: 1em;    
+}
+.serviceitem_head{
+font-family: 'times', sans-serif;
+font-weight: 300;
+font-size: 1.3em;    
+}
+.service_item{
+ font-family: 'Roboto', sans-serif;
+ font-weight: 600;
+ font-size:1.1em;  
+ text-align: left;
+ padding-left: 2em;    
+}
+.itemprice{
+font-family: 'Roboto', sans-serif;
+ font-weight: 600;
+ font-size:1.1em; 
+}
+.readmore{
+    display: inline-block;
+    padding: 5px 25px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+   background-color:rgb(234,90,135);
+    margin-top: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    }
+
+.modal-header, .modal-body{
+background:#d7d2e5; 
+}
+
+.modal-footer{
+background-color:#423b5d;
+}
+.servicemenu{background-color:rgb(151, 158, 196);
+padding: 2em;
+margin-bottom: 1em;
+margin-left: 1em;
+margin-right: 1em; 
+}
+
+.servicemenuhead{
+margin-bottom:.5em;    
+}
+.pricesm{
+font-family:'Times', sans-serif;
+font-size:1.8em;    
+color:  #002e5e;
+}
+.modal-body{padding:0; }
+.closearea{background-color:#423b5d;}
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .5;
+    z-index: auto;
+  
+}
+.btn-default {
+    color: #fff;
+    background-color: #9e82eb;
+    border-color: #1e0f5d;
+}
+.service-discrip{
+    padding:2em;
+}
+
+
+
+/*========================service itemt================================*/
+
+#sweetpraises{background-color:rgb(86, 90, 158);
+    
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    }
+.tesitiper{
+    font-family: 'Roboto', sans-serif;
+        font-size:1.5em;
+        margin-top:10px; 
+        font-weight: 400;
+        color:#fff;
+        margin-top:20px;
+        }
+.testiposition{
+    font-family:'Roboto', sans-serif;
+    font-size:1.4em;
+    font-weight: 300;
+    font-style: italic;
+    color:white;
+    padding-top: 5px;
+}
+.treat{font-family:'Roboto', sans-serif;
+    font-size:1.4em;
+    font-weight: 300;
+    padding-top:8px;
+    padding-bottom:8px;
+}
+
+
+.testi{font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size:1.2em;
+       margin-top:15px;
+    margin-bottom:25px;
+        color:white;}
+    
+
+
+
+
+
+#para2{
+  background:url(../images/para2.jpg) 50% 0px no-repeat fixed;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    height: 850px;
+}
+#secrettreat{background-color:rgb(146, 146, 252);
+    
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    }
+#tendercare{
+    background:url(../images/patern.jpg);
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 8%;
+
+}
+.tccontainer{
+margin: 1em;
+padding:1em;    
+}
+.tchead{
+font-family:"BodoniXT V1" !important;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 100;
+    font-size:45px;
+    margin-bottom: 20px;
+
+}
+.tcbody{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    text-align: center;
+}
+#walkwithme{background-color:rgb(68, 65, 78);
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    }
+
+#bff{
+     background:url(../images/bffbg.jpg) 50% 0px no-repeat scroll;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    height: auto;
+    padding-top: 3%;
+    padding-bottom: 8%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size:1.3em;
+}
+.memberhead{
+    font-weight: 400;
+    text-align: center;
+    font-size:2em;
+}
+.membersubhead{
+    font-weight: 400;
+    text-align: center;
+    font-size:1.5em;
+}
+
+
+
+@media(min-width:767px) {
+  
+
+    .navbar {
+        background: rgb(60,48,97);
+        color:white;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+
+a { color:#fff;
+    text-decoration: none;
+}
+    a:active { color:#fff;
+    text-decoration: none;
+}
+.header
+{ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2c79dd+-1,265ac1+50,122a6c+100 */
+    background: rgb(60,48,97); 
+    width: 100%;
+    height:5.5em;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+.brand-section{ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2c79dd+-1,265ac1+50,122a6c+100 */
+    background: rgb(124,136,194); 
+}
+   
+
+.navbar-default .navbar-nav>li>a {color:white;
+font-family: 'Oswald';
+font-weight: 300; 
+    
+
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color:rgb(125,131,191);
+    color:white ;
+}
+.navbar-default .navbar-nav>li>a:hover { transform: scale(1.1); }
+.navbar {
+    border: none;}
+.brand-section a:hover{transform: scale(1.1); }
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+    
+    .navbar{
+   margin-bottom: 0!important;
+}
+ul.nav a:hover{ -webkit-transform: scale(1.25);
+-moz-transform: scale(1.25);
+-o-transform: scale(1.25);
+transform: scale(1.25);
+-webkit-transform-origin: top right;
+-moz-transform-origin: top right;
+-o-transform-origin: top right;
+    transform-origin: top right;}
+    
+    #garden{
+    background:url(../images/gardern.jpg) 50% 0px no-repeat scroll;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    height:950px;}
+    
+    #hus{
+    background:url(../images/hashbg.jpg) 50% 0px no-repeat scroll;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    height: auto;
+    padding-top: 3%;
+    padding-bottom: 8%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size:1.3em;
+}
+.boldtext{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+   service-menu{font-size:30px;}
+    
+   .carousel-control.right, .carousel-control.left{
+        background-image:none;}
+    
+    
+    
+    #paraimg{
+    background:url(../images/para1.jpg) 50% 0px no-repeat fixed;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    height:650px;}
+   
+    .btn-block {
+    background-color: rgb(70, 147, 247);
+}
+   .readmore{
+    display: inline-block;
+    padding: 5px 25px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+   background-color:rgb(234,90,135);
+    color:#fff;   
+    margin-top: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    }
+    #contact{
+     background: rgb(60,48,97);  
+    height: auto;
+    padding-top: 8%;
+    padding-bottom: 8%;
+     }
+    #address{
+    text-align:left;
+    padding-left: 50px;
+    font-weight: 300;
+    font-size:1.2em;    
+    }
+    .place{ font-weight: 400;
+    font-size:1.5em;    }
+    .time{
+    font-weight: 400;
+    font-size:1.8em;     
+    }
+}/* fornoraml css end here */    
+
+
+/* for mobile css   */
+
+@media screen and (min-width: 320px) and (max-width: 480px) { 
+    /* {
+       
+   /* a[href^="tel"]{
+    color:red;
+    text-decoration:none;*/
+
+/*CSS transitions
+-o-transition-property: none !important;
+-moz-transition-property: none !important;
+-ms-transition-property: none !important;
+-webkit-transition-property: none !important;
+transition-property: none !important;
+/*CSS transforms*/
+/*-o-transform: none !important;
+-moz-transform: none !important;
+-ms-transform: none !important;
+-webkit-transform: none !important;
+transform: none !important;
+/*CSS animations*/
+/*-webkit-animation: none !important;
+-moz-animation: none !important;
+-o-animation: none !important;
+-ms-animation: none !important;
+animation: none !important;
+}*/
+    
+ 
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-align: center;
+    overflow-x: hidden;
+}
+h1{font-size: 2em;}
+h3,h4{font-size:1.1em;
+    
+}
+    .headline{
+  
+    font-size:3.5em;
+    }
+    
+    .servicehead{
+
+ font-size:1.8em;       
+}
+    
+    .servicetitle{
+
+    font-size:1.5em;
+
+    }
+
+    .navbar-default .navbar-nav>li>a {color:white;}
+.navbar {
+    border: none;}
+    a { color:#fff;
+    text-decoration: none;
+}
+.header
+{ 
+    background: rgb(60,48,97); 
+    width: 100%;
+    height:auto;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+#top{margin-top:100px; }
+    
+.navbar-brand{
+height: auto; 
+float: right;
+margin-right: 50px;    
+}    
+
+    .tchead{
+font-family:"BodoniXT V1" !important;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 100;
+    font-size:25px;
+    margin-bottom: 20px;
+
+}
+.subhead{
+font-family:"BodoniXT V1" !important;
+    font-weight: 100;
+    font-size:25px;
+    padding-bottom:1em; 
+}    
+    
+    
+    .carousel-control.right, .carousel-control.left{
+        background-image:none;}
+    .navbar {
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        background-color:rgb(87, 49, 119);
+        color:white;
+    }
+    #garden{
+    background:url(../images/mobiler/gradenmb.jpg) 50% 0px no-repeat scroll;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    height:200px; 
+    border-top:  10px solid rgb(60,48,97);
+    border-bottom:  10px solid rgb(60,48,97);
+    }
+.divbar{
+ background: rgb(60,48,97);
+height:2em;  
+padding:0;
+margin: 0; 
+visibility: hidden;        
+}
+.paratext{
+    font-family:"BodoniXT V1" !important;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 100;
+    font-size:5.5em;
+    color:#fff;
+    padding-top:150px;
+    margin-left:2em;
+
+}
+    
+    #hus{
+    background:url(../images/hashbg.jpg) 50% 0px no-repeat scroll;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    height: auto;
+    padding-top: 3%;
+    padding-bottom: 8%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size:1.3em;
+}
+.boldtext{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+    
+    
+    
+#para1{
+    background:url(../images/mobiler/para1.jpg) 50% 0px no-repeat scroll;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    height: 200px;
+    border-top:  10px solid rgb(60,48,97);
+    border-bottom:  10px solid rgb(60,48,97);
+}
+#para2{
+  background:url(../images/mobiler/para2.jpg) 50% 0px no-repeat scroll;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    height: 200px;
+    border-top:  10px solid rgb(60,48,97);
+    border-bottom:  10px solid rgb(60,48,97);
+}
+
+.brand-section{ 
+ background: rgb(124,136,194); }
+   
+    #top{ 
+        height: 458px;
+        margin-top:50px;
+        border-bottom:  10px solid rgb(60,48,97);
+    }
+.servicebox{
+    margin:3em;
+    background-color: antiquewhite;
+    border: 5px solid #9fc1c4;
+    padding-top:20px; 
+    padding-left:20px; 
+    padding-right:20px;
+   }
+    service-menu{font-size:25px;}
+    
+    #hus, #knowme, #mysecretdiary, #sweetpraises, #tendercare, #walkwithme, #secrettreat,#bff,#contact{
+    height: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: center;
+    padding-left:2%;
+    padding-right:2%;
+    text-align: center; 
+    border-top:  10px solid rgb(60,48,97);
+    border-bottom:  10px solid rgb(60,48,97); 
+    }
+    #contact{
+    border-bottom:none; 
+    }
+    #hus{
+    padding:5%;
+    text-align: center;   
+    }
+    #sweetpraises{
+    height: auto;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    text-align: center;
+    background-color:rgb(110, 85, 193);    
+    
+    }
+    .tesitiper{
+    font-family: 'Roboto', sans-serif;
+        font-size:1.5em;
+        margin-top:10px; 
+        font-weight: 400;
+        color:#fff;
+        margin-bottom:20px;
+        }
+    .testi{font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size:1.2em;
+       margin-top:15px;
+        color:white;}
+    
+    
+    #secrettreat{background-color:rgb(146, 146, 252);
+    
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    }
+      
+#bff{
+     background:#ddd9ff;
+    height: auto;
+    padding-top: 3%;
+    padding-bottom: 8%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size:1em;
+    color:#3d3f72;
+    border-top:  10px solid rgb(60,48,97);
+    border-bottom:  10px solid rgb(60,48,97);
+}
+  
+    #contact{
+        background-color:rgb(87, 49, 119);
+    }
+    
+    
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-size: 12px;
+    text-align: center;
+    overflow-x: hidden;
+}
+    section{
+    padding: 2%;
+    }
+.header
+{ 
+    background: rgb(85, 63, 155); 
+    width: 100%;
+    height:0;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+;
+    
+}
+      .subhead{
+font-family:"BodoniXT V1" !important;
+    font-weight: 100;
+    font-size:25px;
+    padding-bottom:1em; 
+}
+.brand-section{ 
+ background: rgb(124,136,194); }
+   
+
+.navbar-default .navbar-nav>li>a {color:white;}
+.navbar {
+    border: none;}
+
+
+}
+@media screen and (max-width: 667px) and (min-width: 375px){ 
+.subhead{
+font-family:"BodoniXT V1" !important;
+    font-weight: 100;
+    font-size:25px;
+    padding-bottom:1em; 
+}
+
+.header
+{ 
+background: rgb(60,48,97); 
+    width: 100%;
+    height:4em;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+    .divbar{
+ background: rgb(60,48,97);
+height:2em;
+padding: 0;
+margin:0;        
+
+}
+.brand-section, .navbar-collapse{ 
+ background: rgb(124,136,194); }
+   
+    .nav, .navbar-nav,  .navigation{
+    background: rgb(60,48,97); 
+    color:white;
+    }
+    .page-scroll{color:#fff;}
+}
+
